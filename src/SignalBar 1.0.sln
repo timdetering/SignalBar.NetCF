@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{20D4826A-C6FA-45DB-90F4-C717570B9F32}") = "SignalBarControl", "SignalBarControl\SignalBarControl.csdproj", "{AE0A2E7D-F0AF-4BEB-BA7B-DE21267A6AB1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SignalBarControll.Deployment", "SignalBarControl.Deployment\SignalBarControl.Deployment.vdproj", "{7D65257E-3CDC-44B3-A886-761CA2CFE428}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SignalBarControl.Design", "SignalBarControl.Design\SignalBarControl.Design.vcproj", "{6E8E92F8-66AB-447F-B21C-B2836F9D906F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{AE0A2E7D-F0AF-4BEB-BA7B-DE21267A6AB1}.Debug.ActiveCfg = Debug|Pocket PC
+		{AE0A2E7D-F0AF-4BEB-BA7B-DE21267A6AB1}.Debug.Build.0 = Debug|Pocket PC
+		{AE0A2E7D-F0AF-4BEB-BA7B-DE21267A6AB1}.Release.ActiveCfg = Release|Pocket PC
+		{AE0A2E7D-F0AF-4BEB-BA7B-DE21267A6AB1}.Release.Build.0 = Release|Pocket PC
+		{AE0A2E7D-F0AF-4BEB-BA7B-DE21267A6AB1}.Release.Deploy.0 = Release|Pocket PC
+		{7D65257E-3CDC-44B3-A886-761CA2CFE428}.Debug.ActiveCfg = Debug
+		{7D65257E-3CDC-44B3-A886-761CA2CFE428}.Debug.Build.0 = Debug
+		{7D65257E-3CDC-44B3-A886-761CA2CFE428}.Release.ActiveCfg = Release
+		{7D65257E-3CDC-44B3-A886-761CA2CFE428}.Release.Build.0 = Release
+		{6E8E92F8-66AB-447F-B21C-B2836F9D906F}.Debug.ActiveCfg = Debug|Win32
+		{6E8E92F8-66AB-447F-B21C-B2836F9D906F}.Debug.Build.0 = Debug|Win32
+		{6E8E92F8-66AB-447F-B21C-B2836F9D906F}.Release.ActiveCfg = Release|Win32
+		{6E8E92F8-66AB-447F-B21C-B2836F9D906F}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
